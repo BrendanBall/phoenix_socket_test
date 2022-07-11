@@ -9,7 +9,7 @@ defmodule Phsocket.Application do
   def start(_type, _args) do
     children = [
       # Start the Ecto repository
-      Phsocket.Repo,
+      # Phsocket.Repo,
       # Start the Telemetry supervisor
       PhsocketWeb.Telemetry,
       # Start the PubSub system
